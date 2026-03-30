@@ -1,15 +1,14 @@
 {
-  "name": "nexus-render-server",
-  "version": "1.0.0",
-  "description": "Roblox HTML Browser - Server-side layout renderer",
-  "main": "server.js",
+  "name": "roblox-html-css-parser",
+  "version": "2.0.0",
+  "description": "Puppeteer-based pixel-perfect HTML renderer for Roblox",
+  "main": "index.js",
   "scripts": {
-    "start": "node server.js",
-    "dev": "node --watch server.js"
+    "start": "node index.js"
   },
   "dependencies": {
     "express": "^4.18.2",
-    "jsdom": "^24.0.0"
+    "puppeteer": "^21.0.0"
   },
   "engines": {
     "node": ">=18"
